@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: jmanishankar/jenkins-argocd-automatic-nginx-app:AGENT_1
+        image: jmanishankar/jenkins-argocd-automatic-nginx-app:13
         ports:
         - containerPort: 80
